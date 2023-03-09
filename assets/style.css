@@ -81,9 +81,16 @@
                             /*menu sotto-centro*/
 
 
-.mid .colonna{
+.invite{
+    padding-right: .5rem;
+}
 
-} 
+.mid{
+    height: 6rem;
+    width: 30rem;
+}
+
+
 
 
 
