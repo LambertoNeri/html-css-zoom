@@ -1,7 +1,97 @@
-/* reset */ 
+/*RESET*/ 
 
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+/*GENERAL STYLES*/
+  body{
+    font-family: 'Golos Text', sans-serif;
+}
+
+.casella{
+    background-color: gray;
+    color: white;
+    padding-inline: .3rem;
+    padding-bottom: .3rem;
+    padding-top: .3rem;
+    border-radius: 5px;
+}
+
+.colonna{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 2rem;
+}
+
+.font8{
+    font-size: .8rem;
+}
+/*HEADER*/
+
+.menu-sopra{                                         /*menu sopra*/
+    display: flex;
+    justify-content: space-between;
+    width: 10rem;
+    gap: 0.1rem;
+    position: fixed;
+    right: 1px;
+    top: 0.5rem;
+}
+
+.speaker-view a{
+    text-decoration: none;
+    color: white;
+    flex-wrap: wrap;
+}
+
+.menu-sotto{                                             /*menu sotto*/
+    display: flex;
+    height: 6rem;
+    background-color: grey;
+    position: fixed;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    flex: 0 0 33%;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.icons{                      /*menu sotto-sinistra*/
+    display: flex;
+    font-size: 0.7rem;
+    align-items: center;
+    height: 100%;
+    width: 10rem;
+    justify-content: space-around;
+    color: white;
+}
+
+
+.cam{
+    font-size: 2rem;
+}
+
+
+                            /*menu sotto-centro*/
+
+
+.mid .colonna{
+    vertical-align: middle;
+    text-align: center;
+} 
+
+
+
+
+
+
+/*MAIN*/
+
+/*FOOTER*/
+
