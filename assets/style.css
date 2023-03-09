@@ -9,10 +9,11 @@
 /*GENERAL STYLES*/
   body{
     font-family: 'Golos Text', sans-serif;
+    
 }
 
 .casella{
-    background-color: gray;
+    background-color: #4A4A4A;
     color: white;
     padding-inline: .3rem;
     padding-bottom: .3rem;
@@ -53,7 +54,7 @@
 .menu-sotto{                                             /*menu sotto*/
     display: flex;
     height: 6rem;
-    background-color: grey;
+    background-color: #222222;
     position: fixed;   
     right: 0;
     left: 0;
@@ -90,7 +91,7 @@
 }
 
 .fa-share-from-square{
-    color: green;
+    color: #4BC800;
 }
 
 
@@ -99,22 +100,27 @@
   color: red;
   display: flex;
   align-items: center;
-  background-color: black;
+  background-color: #4A4A4A;
   padding-inline: 1rem;
 }
   
 /*MAIN*/
 
+body{
+    background-color: black;
+}
+
 .container{
-    
+    margin-top: 3rem;
     max-width: 1850px;
-    height: calc(100vh);
+    height: calc(100vh - 10rem);
     margin-inline: auto;
     display: flex;
     gap: .3rem;
     overflow-x: auto;
     flex-wrap: wrap;
     background-color: black;
+
     
 }
 
@@ -133,8 +139,7 @@
 }
 
 img{
-    overflow: hidden;
-    max-height: 180px;
+    max-width: 100%;
     
 }
 /*FOOTER*/
