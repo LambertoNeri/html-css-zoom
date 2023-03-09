@@ -51,6 +51,47 @@
     flex-wrap: wrap;
 }                                       
 
+
+/*MAIN*/
+
+body{
+    background-color: black;
+}
+
+.container{
+    margin-top: 3rem;
+    max-width: 1850px;
+    height: calc(100vh - 10rem);
+    margin-inline: auto;
+    display: flex;
+    gap: .3rem;
+    overflow-x: auto;
+    flex-wrap: wrap;
+    background-color: black;
+
+    
+}
+
+.card{
+    position: relative;
+    
+}
+    
+
+.insidecard{
+    color:white;
+    background-color: rgb(212, 18, 18);
+    position: absolute;
+    left: 0;
+    bottom: 0.5rem;
+}
+
+img{
+    max-width: 100%;
+    
+}
+/*FOOTER*/
+
 .menu-sotto{                                             /*menu sotto*/
     display: flex;
     height: 6rem;
@@ -104,44 +145,3 @@
   padding-inline: 1rem;
 }
   
-/*MAIN*/
-
-body{
-    background-color: black;
-}
-
-.container{
-    margin-top: 3rem;
-    max-width: 1850px;
-    height: calc(100vh - 10rem);
-    margin-inline: auto;
-    display: flex;
-    gap: .3rem;
-    overflow-x: auto;
-    flex-wrap: wrap;
-    background-color: black;
-
-    
-}
-
-.card{
-    position: relative;
-    
-}
-    
-
-.insidecard{
-    color:white;
-    background-color: rgb(212, 18, 18);
-    position: absolute;
-    left: 0;
-    bottom: 0.5rem;
-}
-
-img{
-    max-width: 100%;
-    
-}
-/*FOOTER*/
-
- 
