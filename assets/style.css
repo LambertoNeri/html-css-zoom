@@ -67,37 +67,60 @@
     font-size: 0.7rem;
     align-items: center;
     height: 100%;
-    width: 10rem;
     justify-content: space-around;
     color: white;
+    margin-left: 1rem;
 }
-
 
 .cam{
     font-size: 2rem;
 }
+    
 
 
-                            /*menu sotto-centro*/
-
-
-.invite{
+.invite{                           /*menu sotto-centro*/
     padding-right: .5rem;
 }
 
 .mid{
     height: 6rem;
-    width: 30rem;
+    width: 40rem;
+    margin-inline: auto;
+}
+
+.fa-share-from-square{
+    color: green;
 }
 
 
 
-
-
-
-
-
+.right{                      /*menu sotto-right*/
+  color: red;
+  display: flex;
+  align-items: center;
+  background-color: black;
+  padding-inline: 1rem;
+}
+  
 /*MAIN*/
 
+.container{
+    background-color: black;
+    max-width: 1700px;
+    height: 1000px;
+    margin-inline: auto;
+    display: flex;
+}
+.card{
+    position: relative;
+}
+
+.insidecard{
+    color:white;
+    background-color: black;
+    position: absolute;
+    left: 0;
+    bottom: 0.5rem;
+}
 /*FOOTER*/
 
